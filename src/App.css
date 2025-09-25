@@ -1,0 +1,157 @@
+.game-board-root {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background: #fff;
+  max-width: 220px;
+}
+
+.panel h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px;
+  margin-bottom: 15px;
+  max-width: 260px; 
+}
+
+.cell {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  aspect-ratio: 1; 
+}
+
+.cell-img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.preview-area {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.preview-img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+  display: block;
+  margin: 5px auto;
+}
+
+.confirm-btn,
+.reset-btn {
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.confirm-btn:hover,
+.reset-btn:hover {
+  background-color: #e65c00;
+}
+
+.garbage {
+  border: 1px dashed #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #fff4f0;
+}
+
+.base-resources {
+  margin-bottom: 15px;
+}
+
+.base-list {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.base-list img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.inventory-list,
+.discovered-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inventory-item,
+.discovered-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #f5f5f5;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.inventory-item img,
+.discovered-item img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.small-btn {
+  padding: 2px 5px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+}
+
+.small-btn:hover {
+  background: #e60000;
+}
+
+.win-banner {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.empty {
+  color: #888;
+  font-style: italic;
+}

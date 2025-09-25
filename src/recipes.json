@@ -1,0 +1,34 @@
+[
+  {
+    "pattern": [
+      ["Aer", "Apa", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "result": { "name": "Nor", "image": "nor.png", "description": "Aer + Apa => Nor" }
+  },
+  {
+    "pattern": [
+      ["Apa", "Foc", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "result": { "name": "Abur", "image": "abur.png", "description": "Apa + Foc => Abur" }
+  },
+  {
+    "pattern": [
+      ["Foc", "Pamant", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "result": { "name": "Lava", "image": "lava.png", "description": "Foc + Pamant => Lava" }
+  },
+  {
+    "pattern": [
+      ["Abur", "Aer", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "result": { "name": "Univers", "image": "univers.png", "description": "Obiect final" }
+  }
+]
